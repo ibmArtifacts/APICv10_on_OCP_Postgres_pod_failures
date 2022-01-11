@@ -57,8 +57,14 @@ time="2022-01-10T22:19:48Z" level=error msg="error dialing backend: dial tcp x.x
  
 7.	Once the node is reboot you may need to refresh any pods that are in error state, and that should completely remove any stale pods in the cluster. You may watch the pods with the following command:  
 ```# watch oc get pods ```  
-
-
-Thank you Felix Rafael Gonzalez Vargas for the details (IBM Slack@felixg)
+  
+  
+  
+  
+    
+ *
+ *
+ *
+Thank you Felix Rafael Gonzalez Vargas for the technical walk-through (IBM Slack@felixg).
 
 
